@@ -33,7 +33,7 @@ article.profile-card-example {
 
 header.profile-card-example-header {
   display: flex;
-  flex-direction: column;
+  flex-direction:center;
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
@@ -41,7 +41,7 @@ header.profile-card-example-header {
   /* Je kunt selectors nesten! */
   h1 {
     margin: 2rem 0 1rem;
-    color: rgb(234, 167, 178);
+    color: rgb(74, 6, 32);
   }
 
 }
