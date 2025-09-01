@@ -12,7 +12,7 @@ body:has(.profile-card-example) {
   align-items: center;
   height: 100vh;
   font-family: open sans;
-  color: #10214e;
+  color: #4e0028;
 }
 
 article.profile-card-example {
@@ -25,8 +25,8 @@ article.profile-card-example {
   max-width: 25em;
   min-width: 20em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(239, 183, 250);
+  background: linear-gradient(0deg, rgb(255, 254, 255) 40%, #fcabd5 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
@@ -41,7 +41,7 @@ header.profile-card-example-header {
   /* Je kunt selectors nesten! */
   h1 {
     margin: 2rem 0 1rem;
-    color: rgba(0,239,255,1);
+    color: rgb(234, 167, 178);
   }
 
 }
@@ -55,23 +55,23 @@ button.profile-card-example-button {
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgba(0,239,255,1);
+  background: rgb(255, 32, 169);
   transform: scale(.8);
   transition: .25s;
 }
 button.profile-card-example-button:focus {
   outline: none;
-  background: #202592;
+  background: #ff184e;
 }
 button.profile-card-example-button svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
+  stroke: #f939e9;
   transition-delay: .25s;
 }
 button.profile-card-example-button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(254, 183, 255);
 }
 button.profile-card-example-button svg:nth-of-type(2) {
   opacity: 0;
