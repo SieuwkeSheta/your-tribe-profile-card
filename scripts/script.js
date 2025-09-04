@@ -1,13 +1,4 @@
-/* Stap 1: Selecteer de knop */
-// let expandButton = document.querySelector('.profile-card-example-button')
-
-// /* Stap 2: Wacht tot iemand op die knop klikt */
-// expandButton?.addEventListener('click', function() {
-
-//   /* Stap 3: Verander een class zodra iemand op die knop klikt */
-//   document.body.classList.toggle('is-expanded')
-// })
-
+/* Rij (knoppen) met Werkervaring, Hobbies en Ambities */
 let werkButton = document.querySelector('#werk')
 
 werkButton.addEventListener('click', function() {
@@ -31,3 +22,11 @@ ambitiesButton.addEventListener('click', function() {
   console.log("ambities");
   document.querySelector(".ambities").classList.toggle('is-shown')
 })
+
+// Automatisch leeftijd aanpassen
+var dob = new Date("07/02/1998");
+var month_diff = Date.now() - dob.getTime();
+var age_dt = new Date(month_diff);
+var year = age_dt.getUTCFullYear();
+var age = Math.abs(year - 1970);
+document.getElementById("age").innerHTML = age;
